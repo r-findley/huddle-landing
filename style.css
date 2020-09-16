@@ -1,0 +1,245 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 
+  ===========================
+  Custom Styles
+  ===========================
+*/
+body {
+  background: #262626;
+  box-sizing: border-box;
+}
+body div {
+  background: hsl(257, 40%, 49%);
+  color: white;
+  width: 375px;
+  margin: auto;
+}
+
+/* 
+  ===========================
+  Typography
+  ===========================
+*/
+.main {
+  text-align: center;
+}
+
+.main h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.main p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+  padding: 1rem 30px;
+}
+
+.btn {
+  font-family: "Poppins", sans-serif;
+}
+/* 
+  ===========================
+  Header
+  ===========================
+*/
+header {
+  background-image: url(./images/bg-mobile.svg);
+  background-position: center-top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 375px;
+}
+
+.logo {
+  padding: 1.8rem 2rem 0px 2rem;
+  width: 30%;
+}
+.mock-up {
+  display: block;
+  padding: 40px 0px 2rem 0px;
+  text-align: center;
+  margin: auto;
+  width: 80%;
+}
+/*
+  =========================== 
+  Buttons 
+  =========================== 
+*/
+.btn {
+  border: 2px solid hsl(257, 40%, 49%);
+  border-radius: 50px;
+  box-shadow: 2px 4px hsl;
+  color: hsl(257, 40%, 49%);
+  height: 40px;
+  margin: 0.5rem auto 3rem auto;
+  width: 50%;
+}
+
+/* 
+  =============================
+  Icons
+  =============================
+*/
+ul {
+  text-align: center;
+}
+li {
+  display: inline-block;
+  padding: 4px;
+  text-align: center;
+}
+.social i {
+  color: white;
+  text-decoration: none;
+}
+/* 
+  ===========================
+  Footer
+  ===========================
+*/
+.attribution {
+  font-size: 11px;
+  padding-top: 20px;
+  text-align: center;
+}
+.attribution a {
+  color: white;
+}
+
+.attribution a:hover {
+  color: pink;
+}
