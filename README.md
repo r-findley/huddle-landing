@@ -1,7 +1,8 @@
--[] Update README.md to reflect my personal challenge
--[] Build out initial HTML file
--[] Build out CSS file -[x] Deploy project via Vercel
--[] Share project via frontendmentor.io and Slack
+- [x] Update README.md to reflect my personal challenge
+- [x] Build out initial HTML file
+- [x] Build out CSS file 
+- [x] Deploy project via Vercel
+- [x] Share project via frontendmentor.io and Slack
 
 # Frontend Mentor - Huddle landing page with single introductory section
 
