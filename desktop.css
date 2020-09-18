@@ -132,11 +132,21 @@ table {
   Custom Styles
   ===========================
 */
+body,
+html {
+  height: 100%;
+}
 body {
   background: hsl(257, 40%, 49%);
   background-image: url(./images/bg-desktop.svg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
   box-sizing: border-box;
   color: white;
+
   margin: auto;
 }
 
@@ -145,26 +155,85 @@ body {
   Clearfix
   ===========================
 */
-
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
 /* 
   ===========================
   Grid
   ===========================
 */
 
+.column {
+  float: left;
+  width: 40%;
+}
+
 .main {
-  float: right;
+  margin: 220px 0px 0px 100px;
 }
 /* 
   ===========================
   Header
   ===========================
 */
-
-header img {
-  float: left;
+.logo img {
+  padding: 65px 0px 0px 60px;
+  width: 40%;
+}
+.mock-up img {
+  padding: 76px 76px 100px 60px;
+  width: 100%;
+}
+/* 
+  ===========================
+  Typography
+  ===========================
+*/
+.main h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 2rem;
+  width: 80%;
 }
 
+.main p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+  padding: 1rem 0px;
+}
+
+.btn {
+  font-family: "Poppins", sans-serif;
+}
+
+/* 
+  =============================
+  Icons
+  =============================
+*/
+ul {
+  text-align: right;
+}
+li {
+  display: inline-block;
+  padding: 4px;
+}
+.social i {
+  color: white;
+  text-decoration: none;
+}
 /*
   =========================== 
   Buttons 
@@ -178,4 +247,23 @@ header img {
   height: 40px;
   margin: 0.5rem auto 3rem auto;
   width: 150px;
+}
+/*
+===========================
+Footer
+===========================
+*/
+footer {
+}
+.attribution {
+  font-size: 11px;
+  padding-top: 20px;
+  text-align: center;
+}
+.attribution a {
+  color: white;
+}
+
+.attribution a:hover {
+  color: pink;
 }

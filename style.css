@@ -172,7 +172,7 @@ body {
   Header
   ===========================
 */
-header {
+.header {
   background-image: url(./images/bg-mobile.svg);
   background-position: center-top;
   background-repeat: no-repeat;
@@ -180,11 +180,11 @@ header {
   height: 375px;
 }
 
-.logo {
+.logo img {
   padding: 1.8rem 2rem 0px 2rem;
   width: 30%;
 }
-.mock-up {
+.mock-up img {
   display: block;
   padding: 40px 0px 2rem 0px;
   text-align: center;
