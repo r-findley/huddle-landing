@@ -4,50 +4,92 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
-    <link rel="stylesheet" href="./style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
-    <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="./style.css"
+      media="screen and (max-width: 600px"
+      )
+    />
+    <link
+      rel="stylesheet"
+      href="./desktop.css"
+      media="screen and (min-width: 601px)"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>
+      Frontend Mentor | Huddle landing page with single introductory section
+    </title>
     <!--              Font Awesome Kit                    -->
-    <script src="https://kit.fontawesome.com/bd719d6431.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/bd719d6431.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div>
-      <header>
-        <img src="./images/logo.svg" class="logo" alt="Huddle logo" />
+    <div class="group">
+      <section class="column header">
+        <div class="logo">
+          <img src="./images/logo.svg" class="logo" alt="Huddle logo" />
+        </div>
 
-        <img src="./images/illustration-mockups.svg" class="mock-up" alt="Mockup of website design" />
-      </header>
-      <section class="main">
-        <h1>Build The Community <br />Your Fans Will Love</h1>
-
-        <p>
-          Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you
-          engage in genuine discussion.
-        </p>
-
-        <input type="button" class="btn" value="Register" />
+        <div class="mock-up">
+          <img
+            src="./images/illustration-mockups.svg"
+            class="mock-up"
+            alt="Mockup of website design"
+          />
+        </div>
       </section>
-      <section class="social">
-        <ul>
-          <li>
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-          </li>
-        </ul>
-      </section>
-      <footer>
-        <p class="attribution">
-          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
-          <a href="https://github.com/r-findley">Ryan Findley</a>.
-        </p>
-      </footer>
+      <div class="main column">
+        <section>
+          <h1>Build The Community <br />Your Fans Will Love</h1>
+
+          <p>
+            Huddle re-imagines the way we build communities. You have a voice,
+            but so does your audience. Create connections with your users as you
+            engage in genuine discussion.
+          </p>
+
+          <input type="button" class="btn" value="Register" />
+        </section>
+        <section class="social group">
+          <ul>
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </section>
+
+        <footer class="group">
+          <p class="attribution">
+            Challenge by
+            <a
+              href="https://www.frontendmentor.io?ref=challenge"
+              target="_blank"
+              >Frontend Mentor</a
+            >. Coded by <a href="https://github.com/r-findley">Ryan Findley</a>.
+          </p>
+        </footer>
+      </div>
     </div>
   </body>
 </html>
